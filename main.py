@@ -36,4 +36,3 @@ with open("authors.json", "w") as authors_file:
     json.dump(authors_data, authors_file, indent=4)
 
 print("Інформацію про авторів збережено у файлі authors.json")
-
